@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { supabase } from '@/lib/supabaseClient'
+import { supabase } from '../supabaseClient'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
